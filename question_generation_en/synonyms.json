@@ -1,0 +1,28 @@
+{
+  "thing": ["thing", "object"],
+
+  "sphere": ["sphere", "ball"],
+  "cube": ["cube", "block"],
+  "cylinder": ["cylinder"],
+  "conoid": ["conoid"],
+  "polyhedron" : ["polyhedron"],
+
+  "large": ["large", "big"],
+  "small": ["small", "tiny"],
+
+  "metal": ["metallic", "metal", "shiny"],
+  "rubber": ["rubber", "matte"],
+
+  "left": ["left of", "to the left of", "on the left side of"],
+  "right": ["right of", "to the right of", "on the right side of"],
+  "behind": ["behind"],
+  "front": ["in front of"],
+  "above": ["above"],
+  "below": ["below"],
+
+  "gray": ["gray"],
+  "red": ["red"],
+  "blue": ["blue"],
+  "green": ["green"],
+  "yellow": ["yellow"]
+}

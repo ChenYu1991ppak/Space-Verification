@@ -1,0 +1,462 @@
+[
+  {
+    "text": [
+      "请点击在<Z><C><M><S><R><Z2><C2><M2><S2><R2><Z3><C3><M3><S3>。"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R>",
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "relate_filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R2>",
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "relate_filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R2>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z3>"
+      },
+      {
+        "type": "Color",
+        "name": "<C3>"
+      },
+      {
+        "type": "Material",
+        "name": "<M3>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S3>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<Z3>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+      "请点击在<Z><C><M><S><R><Z2><C2><M2><S2><R2><Z3><C3><M3><S3>。"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R>",
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "relate_filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R2>",
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "relate_filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R2>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z3>"
+      },
+      {
+        "type": "Color",
+        "name": "<C3>"
+      },
+      {
+        "type": "Material",
+        "name": "<M3>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S3>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<C3>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+      "请点击在<Z><C><M><S><R><Z2><C2><M2><S2><R2><Z3><C3><M3><S3>。"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R>",
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "relate_filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R2>",
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "relate_filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R2>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z3>"
+      },
+      {
+        "type": "Color",
+        "name": "<C3>"
+      },
+      {
+        "type": "Material",
+        "name": "<M3>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S3>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<M3>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+      "请点击在<Z><C><M><S><R><Z2><C2><M2><S2><R2><Z3><C3><M3><S3>。"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R>",
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "relate_filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R2>",
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "relate_filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R2>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z3>"
+      },
+      {
+        "type": "Color",
+        "name": "<C3>"
+      },
+      {
+        "type": "Material",
+        "name": "<M3>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S3>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<S3>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  }
+]

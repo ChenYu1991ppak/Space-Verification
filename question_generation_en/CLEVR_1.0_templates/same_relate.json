@@ -1,0 +1,839 @@
+[
+  {
+    "text": [
+      "Please click the other <Z2> <C2> <S2> that is the same size as the <Z> <C> <S>."
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "same_size"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<S2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<Z>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<Z2>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<C2>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+	  "Please click the other <Z2> <C2> <S2> that is the same size as the <Z> <C> <S>."
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "same_size"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<S2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<Z>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<Z2>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<M2>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+	  "Please click the other <Z2> <C2> <S2> that is the same size as the <Z> <C> <S>."
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "same_size"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<S2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<Z>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<Z2>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<S2>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+	  "Please click the other <Z2> <C2> <S2> that is the same color as the <Z> <C> <S>."
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "same_color"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<S2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<C>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<C2>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<Z2>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+	  "Please click the other <Z2> <C2> <S2> that is the same color as the <Z> <C> <S>."
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "same_color"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<S2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<C>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<C2>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<M2>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+	  "Please click the other <Z2> <C2> <S2> that is the same color as the <Z> <C> <S>."
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "same_color"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<S2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<C>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<C2>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<S2>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+	  "Please click the other <Z2> <C2> <S2> that is the same shape as the <Z> <C> <S>."
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "same_shape"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<S2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<S>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<S2>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<Z2>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+	  "Please click the other <Z2> <C2> <S2> that is the same shape as the <Z> <C> <S>."
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "same_shape"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<S2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<S>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<S2>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<C2>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  },
+  {
+    "text": [
+	  "Please click the other <Z2> <C2> <S2> that is the same shape as the <Z> <C> <S>."
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<S>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [
+          1
+        ],
+        "type": "same_shape"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<S2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      }
+    ],
+    "constraints": [
+      {
+        "params": [
+          "<S>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<S2>"
+        ],
+        "type": "NULL"
+      },
+      {
+        "params": [
+          "<M2>"
+        ],
+        "type": "NULL"
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "shapes": {
+    "polyhedron": "polyhedron",
+    "conoid": "conoid",
+    "cube": "cube",
+    "cylinder": "cylinder",
+    "sphere": "sphere"
+  },
+  "colors": {
+    "gray": [53, 57, 59],
+    "red": [255, 21, 21],
+    "blue": [1, 86, 255],
+    "green": [0, 183, 70],
+    "yellow": [204, 139, 0]
+  },
+  "materials": {
+    "rubber": "Rubber",
+    "metal": "MyMetal"
+  },
+  "sizes": {
+    "large": 0.7,
+    "small": 0.4
+  }
+}
